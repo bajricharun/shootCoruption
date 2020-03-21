@@ -1,0 +1,64 @@
+#jugoslavija {
+  width: 100%;
+  background: url("../../media/jugoslavija.png");
+  height: 600px;
+}
+
+#instructions {
+  position: relative;
+  color: white;
+  left: 35px;
+  top: 0px;
+  text-shadow: 2px 2px black;
+}
+
+#score {
+  margin-top: 2%;
+}
+
+#start-button {
+  position: relative;
+  color: white;
+  left: 140px;
+  top: 10px;
+  text-shadow: 2px 2px black;
+}
+
+#start-button:hover {
+  cursor: pointer;
+}
+
+#tito {
+  width: 6vw;
+  height: 6vw;
+  border-radius: 50%;
+  position: relative;
+  left: 20px;
+  top: 180px;
+}
+
+.laser {
+  width: 4vw;
+  height: 4vw;
+  position: relative;
+}
+
+.monster {
+  width: 6vw;
+  height: 6vw;
+  position: absolute;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.monster-transition {
+  opacity: 1;
+  transition: opacity 1.5s ease-out;
+}
+
+.dead-monster {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  opacity: 0;
+}

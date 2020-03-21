@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./static/css/game.css" />
+
+    <title>Mito i korupcija</title>
+  </head>
+  <body>
+    <div class="container" onmousedown="shoot();">
+      <button onclick="myMove(); gun();"></button>
+
+      <h1><i>Ubij Dodaru u zatvor</i></h1>
+      <br />
+      <div id="gun">gun</div>
+      <div id="arrow">-</div>
+      <img src="./media/dodara.jpg" id="img1" class="game-pic" />
+    </div>
+    <script src="./static/js/keypress.js"></script>
+    <script src="./static/js/run.js"></script>
+  </body>
+</html>
